@@ -1,0 +1,5 @@
+ErrorDocument 404 /notfound.html
+
+Options -Indexes
+
+Options +MultiViews -Indexes

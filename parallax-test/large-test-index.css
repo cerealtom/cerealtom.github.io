@@ -1,0 +1,155 @@
+body,td,th {
+	font-family:"Courier New", Courier, monospace;
+	font-size:small;
+	color:#FFFFFF;
+}
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#FFFFFF;
+}
+img {
+	display: block;
+	border:none;
+	padding:none;
+	margin:none;
+	font-size:0px;
+	float:left;
+}
+
+.clear { clear:both; }
+.center { margin:0 auto; }
+.content{ margin:0 auto; width:960px; }
+
+a:link {
+	color:#FF3366;
+	text-decoration:none;
+}
+a:visited {
+	color:#FF3366;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color:#CCCCCC;
+}
+a:active {
+	text-decoration:none;
+}
+a.lpanel {
+	float:left;
+	color:#e1e1e1;
+	font-size:12px;
+	font-family:"Wellfleet";
+	text-decoration:none;
+	margin:7px 11px;
+}
+a.rpanel {
+	float:right;
+	color:#e1e1e1; 
+	font-size:12px;
+	font-family:"Wellfleet";
+	text-decoration:none;
+	margin:7px 11px;
+}
+a.lpanel:hover{ color:#fff; }
+a.rpanel:hover{ color:#fff; }
+
+
+#header { 
+	width:100%; 
+	background:url('images-site/header-bg.png'); 
+	height:80px; 	
+	position:fixed;
+	margin-top:0px;
+}
+#nav {
+	width:600px;
+	float:right;
+	margin-top:20px;
+}
+#logo {
+	color:#fff;
+	text-decoration:none;
+	float:left;
+	font-size:30px;
+	margin-top:20px;
+	margin-left:400px;
+	color: #fff;
+	font-family:"Wellfleet";
+	font-weight: bold;
+}
+#nav ul {
+	list-style:none;
+	display:block;
+	margin:0 auto;
+	list-style:none;	
+}
+#nav li {
+	margin-top:9px;	
+	float:left;
+	padding-left:21px;
+}
+#nav li a {
+	color:#fff;
+	opacity:0.6;
+	font-size:16px;
+	text-decoration:none;
+	font-family:'Wellfleet';
+}
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+#header-image {
+	color:#fff;
+	margin:0;
+	width:100%;
+}
+#container {
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#000000;
+}
+#portfolio {
+	padding-top:100px;
+	width:1400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content-02 {
+	padding-top:30px;
+	padding-bottom:50px;
+	padding-left:30px;
+	padding-right:30px;
+	width:1000px;
+}
+#content-03 {
+	padding-top:30px;
+	padding-bottom:50px;
+	padding-left:30px;
+	padding-right:30px;
+	width:680px;
+	float:right;
+}
+#content-04 {
+	padding-bottom:50px;
+	padding-left:100px;
+	width:800px;
+	background-color:#FFFFFF;
+}
+#sidebar {
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	width:230px;
+	float:left;
+}
+#footer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:60px;
+	padding-bottom:60px;
+	background-color:#0C090A;
+}
