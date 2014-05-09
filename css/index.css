@@ -1,0 +1,111 @@
+body,td,th {
+	font-family:"Oxygen";
+	font-size:small;
+	color:#FFFFFF;
+}
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+}
+img { border:none; }
+p { font-size:medium; }
+li { font-size:medium; }
+.clear { clear:both; }
+.center { margin:0 auto; }
+.content{ margin:0 auto; width:960px; }
+a:link {
+	color:#FF3366;
+	text-decoration:none;
+}
+a:visited {
+	color:#FF3366;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color:#CCC;
+}
+a:active {
+	text-decoration:none;
+}
+#container {
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#FFF;
+	position:relative;
+}
+#header {
+	height:200px;
+	background-color:#FFF;
+	background:url('images-site/header-girl.jpg');
+	opacity:0.8;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	border-top-left-radius:50px	50px;
+	border-top-right-radius:50px	50px;
+}
+#cerealtom {
+	font-family:"Holtwood One SC";
+	font-weight: normal;
+	font-size: 60px;
+	text-align: center;
+	color: #E5E4E2;
+	padding-left:150px;
+	padding-top:50px;
+}
+
+#nav {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	width:970px;
+	background-color:#2C3539;
+}
+#gallery {
+	padding-top:5px;
+	padding-bottom:50px;
+	width:1000px;
+	background-color:#2C3539;
+}
+#about {
+	padding-top:10px;
+	padding-bottom:50px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#2C3539;
+}
+#animation {
+    text-align:center;
+	padding-top:30px;
+	padding-bottom:50px;
+	padding-left:50px;
+	background-color:#2C3539;
+}
+#misc {
+	padding-top:10px;
+	padding-bottom:50px;
+	padding-left:50px;
+	background-color:#2C3539;
+}
+#giraffe {
+	padding-bottom:50px;
+	padding-left:100px;
+	width:800px;
+}
+#sidebar {
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	width:230px;
+	float:left;
+}
+#footer {
+	margin-bottom: 0px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	background-color:#2C3539;
+}

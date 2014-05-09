@@ -1,0 +1,83 @@
+body,td,th {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	color: #FFFFFF;
+}
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+a:link {
+	color: #FF3366;
+	text-decoration: none;
+}
+a:visited {
+	color: #FF3366;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a:active {
+	text-decoration: none;
+}
+#container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000000;
+}
+#header {
+	height: 200px;
+	background-color: #FFFFFF;
+}
+#content-01 {
+	padding-top: 5px;
+	padding-bottom: 50px;
+	width: 1000px;
+}
+#content-02 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 1000px;
+}
+#content-03 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 680px;
+	float: right;
+}
+#content-04 {
+	padding-bottom: 50px;
+	padding-left: 100px;
+	width: 800px;
+	background-color: #FFFFFF;
+}
+#sidebar {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	width: 230px;
+	float: left;
+}
+#footer {
+	width: 970px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	padding-bottom: 5px;
+}
+.clear {
+	clear: both;
+}
+img {
+	border: none;
+}
