@@ -109,3 +109,12 @@ a:active {
 	padding-bottom: 5px;
 	background-color:#2C3539;
 }
+@media only screen and (max-device-width: 480px) {
+	body,td,th {
+		font-family:"Oxygen";
+		font-size:medium;
+		color:#FFFFFF;
+	}
+	p { font-size:large; }
+	li { font-size:large; }
+	}
