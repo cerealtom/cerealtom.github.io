@@ -111,10 +111,11 @@ a:active {
 }
 @media only screen and (max-device-width: 480px) {
 	body,td,th {
-		font-family:"Oxygen";
-		font-size:large;
-		color:#FFFFFF;
+		font-family: "Oxygen";
+		font-size: x-large;
+		color: #FFFFFF;
 	}
-	p { font-size:x-large; }
-	li { font-size:x-large; }
+	p { font-size: x-large; }
+	li { font-size: x-large; }
+h2 { font-size: x-large; }
 	}
