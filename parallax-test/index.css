@@ -10,7 +10,7 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	background-color:#708090;
+	background-color:#000000;
 }
 
 .clear { clear:both; }
@@ -50,13 +50,11 @@ a:active {
 }
 #logo {
 	color:#fff;
-	text-decoration:none;
 	float:left;
-	font-size:30px;
-	margin-top:20px;
+	font-size:60px;
 	margin-left:400px;
-	font-family:"Nunito";
-	font-weight: bold;
+	font-family:"Holtwood One SC";
+	font-weight: normal;
 }
 #nav ul {
 	list-style:none;
@@ -85,65 +83,58 @@ a:active {
 	color: #fff;
 	opacity:1;
 }
-#header-image {
-	color:#fff;
-	margin:0;
-	width:100%;
-	height:1200px;
-	background:url('images-site/header-giraffe.jpg');
-	background-size: cover;
-}
 
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#container {
-	margin-right:auto;
-	margin-left:auto;
-	background-color:#000000;
+#giraffe-slide, #container{ width: 100%; }
+#giraffe-slide {
+	background: url('../images-site/header-giraffe.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
 }
+
 #portfolio {
 	width:1400px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color:#000000;
+	overflow: hidden;
 }
-#somesortaslide1 {
-	color:#fff;
-	margin:0;
-	width:100%;
-	height:1200px;
-	background:url('images-site/header-moose.jpg');
+
+#moose-slide {
+	background: url('../images-site/header-moose.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;	
 	background-size: cover;
 }
-#content-02 {
-	padding-top:30px;
-	padding-bottom:50px;
-	padding-left:30px;
-	padding-right:30px;
-	width:1000px;
+
+#about {
+	color: #708090;
+	font-size:28px;
+	height: 350px;
+	padding: 80px;
+	width: 1000px;
+	margin-left: 0;
+	margin-right: auto;
 }
-#content-03 {
-	padding-top:30px;
-	padding-bottom:50px;
-	padding-left:30px;
-	padding-right:30px;
-	width:680px;
-	float:right;
+
+#giraffe {
+	background: url('../images/hco-01.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
 }
-#content-04 {
+
+#animation {
 	padding-bottom:50px;
-	padding-left:100px;
-	width:800px;
 	background-color:#FFFFFF;
-}
-#sidebar {
-	padding-top:30px;
-	padding-bottom:10px;
-	padding-left:30px;
-	width:230px;
-	float:left;
 }
 
 /*= FOOTER 

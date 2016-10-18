@@ -8,13 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="shortcut icon" href="favicon.ico" >
 		<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+		<script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
-		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
 		<script type="text/javascript">
 	hs.graphicsDir = 'highslide/graphics/';
 	hs.align = 'center';
@@ -71,20 +72,19 @@ $(document).ready(function() {
 <body>
 	<header id="header">
 		<div>
-			<div id="logo"><a href=""> CEREALTOM </a></div>
+			<div id="logo"><a href=""> cerealtom.com </a></div>
 			<nav id="nav">
 				<ul>
-					<li><a href="#header-image" title="Next Section">home</a></li>
-					<li><a href="#portfolio" title="Next Section">portfolio</a></li>
-					<li><a href="#about" title="Next Section">about</a></li>
-					<li><a href="#giraffe" title="Next Section">giraffe</a></li>
-					<li><a href="#animation" title="Next Section">animation</a></li>
+					<li><a href="#header-image" title="home">home</a></li>
+					<li><a href="#portfolio" title="portfolio">portfolio</a></li>
+					<li><a href="#about" title="about">about</a></li>
+					<li><a href="#giraffe" title="giraffe">giraffe</a></li>
+					<li><a href="#animation" title="animation">animation</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-		<div id="header-image"></div>
-	<div id="container">
+		<div id="giraffe-slide"></div>
 		<div id="portfolio">
 			<div class="highslide-gallery" align="center">
 			 <a id="thumb1" href="images-misc/hoopaloo.jpg"class="highslide" onclick="return hs.expand(this)">
@@ -101,9 +101,6 @@ $(document).ready(function() {
 						<div class="highslide-caption"><p style="color: #333333;">From a series produced for the Gibson Hotel,<br />Giclee print, 2010, 50 x 70cm, ed. of 17</p></div>
 				<a id="thumb1" href="images/hco-04.jpg" class="highslide" onclick="return hs.expand(this)">
 					<img src="thumbnails/hco-04.jpg" alt="hco" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">From a series produced for the Gibson Hotel,<br />Giclee print, 2010, 50 x 70cm, ed. of 16</p></div>
-				<a id="thumb1" href="images/hco-07.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/hco-07.jpg" alt="hco" title="Click to enlarge" /></a>
 						<div class="highslide-caption"><p style="color: #333333;">From a series produced for the Gibson Hotel,<br />Giclee print, 2010, 50 x 70cm, ed. of 16</p></div>
 				<a id="thumb1" href="images/hco-09.jpg" class="highslide" onclick="return hs.expand(this)">
 					<img src="thumbnails/hco-09.jpg" alt="hco" title="Click to enlarge" /></a>
@@ -138,39 +135,15 @@ $(document).ready(function() {
 				<a id="thumb1" href="images/self-portrait-03.jpg" class="highslide" onclick="return hs.expand(this)">
 					<img src="thumbnails/self-portrait-a_03.jpg" alt="Highslide JS" title="Click to enlarge" /></a>
 						<div class="highslide-caption"><p style="color: #333333;">Self Portrait - <a href="http://www.stonegallery.ie/HTML/archives/archive-good-on-paper.html" target="_blank"><i>Good on Paper</i></a>, the Stone Gallery, 2008.</p></div>
-				<a id="thumb1" href="images/great-big-eye.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/great-big-eye.jpg" alt="Great Big Eye Guy" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">Great Big Eye Guy</p></div>
-				<a id="thumb1" href="images/super-cereal.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/super-cereal.jpg" alt="Super Cereal" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">Super Cereal</p></div>
-				<a id="thumb1" href="images/colouring-book-37.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/colouring-book-37.jpg" alt="Colouring Book 37" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">Colouring Book page 37</p></div>
-				<a id="thumb1" href="images/colouring-book-36.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/colouring-book_36.jpg" alt="Colouring Book 36" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">Colouring Book page 36</p></div>
-				<a id="thumb1" href="images/colouring-book-09.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/colouring-book_09.jpg" alt="Colouring Book 9" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;">Colouring Book page 9</p></div>
-				<a id="thumb1" href="images/colouring-book-01.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/colouring-book-a_01.jpg" alt="Colouring Book 1" title="Click to enlarge" /></a>
-					<div class="highslide-caption"><p style="color: #333333;">Colouring Book page 1</p></div>
-				<a id="thumb1" href="images/h-monster-05.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/horse-a.jpg" alt="short!" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;"><a href="http://vimeo.com/31605557" target="_blank">short!</a> - A brief reaction to Melodies from Mars from 2008.<br />click <a href="work-short.html" target="_blank">here</a> for more</p></div>
-				<a id="thumb1" href="images/secret-tonight.jpg" class="highslide" onclick="return hs.expand(this)">
-					<img src="thumbnails/secret-tonight.jpg" alt="A Secret Tonight" title="Click to enlarge" /></a>
-						<div class="highslide-caption"><p style="color: #333333;"><a href="http://vimeo.com/31604733" target="_blank">A Secret Tonight</a> - Initially a project to create live visuals for Julien Lonchamp's band Jack and the', as well as an opportunity to learn the process, the video was completed in 2007 with the elements that had already been created when the project was cancelled, then edited together to conform to the song <i>A Secret Tonight</i>'s structure.<br />click <a href="http://vimeo.com/31604733" target="_blank">here</a> to view the animation</p></div>
 			</div>
 		</div>
-		<div class="clear" id="somesortaslide1"></div>
-		<div id="about"></div>
-		<div id="somesortaslide2"></div>
+		<div class="clear" id="moose-slide"></div>
+		<div id="about">
+			<p>Tom Moore is a Dublin born artist whose work involves illustration in different media, including traditional print making practices and animation. He studied at the <a href="http://www.ncad.ie/" target="_bank">National College of Art &amp; Design</a> specialising in printmaking and has exhibited in numerous group exhibitions, including the annual RHA Graduate show in 2006, and several exhibitions with the <a href="http://www.print.ie/" target="_blank">Black Church Print Studio</a>.</p>
+			<p>In 2010 he completed a large body of work for the Gibson Hotel in Dublin, and recently finished working with Digital Furnace Games on their game, <a href="http://store.steampowered.com/app/310850/" target="_blank">Onikira</a>.</p>
+		</div>
 		<div id="giraffe"></div>
-		<div id="somesortaslide3"></div>
 		<div id="animation"></div>
-	</div>
 	<div class="clear" id="footer">
 			<h3>
 				<p><a href="http://www.ncfa.ie/" target="_blank"><img src="images-site/arts_blk.gif" style="float: right; margin-right: 10px;" alt="NCFA" /></a>
