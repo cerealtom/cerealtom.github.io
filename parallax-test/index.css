@@ -1,10 +1,7 @@
-/*= GENERAL STYLING
---------------------------------------------------------*/
-
 body,td,th {
 	font-family:"Oxygen";
 	font-size:small;
-	color:#FFFFFF;
+	color:#ffffff;
 }
 body {
 	margin:0;
@@ -18,85 +15,83 @@ body {
 .content{ margin:0 auto; width:960px; }
 
 a:link {
-	color:#FF3366;
+	color:#ff3366;
 	text-decoration:none;
 }
 a:visited {
-	color:#FF3366;
+	color:#ff3366;
 	text-decoration:none;
 }
 a:hover {
 	text-decoration:none;
-	color:#CCCCCC;
+	color:#cccccc;
 }
 a:active {
 	text-decoration:none;
 }
-
-/*= HEADER & NAVIGATION
---------------------------------------------------------*/
-
 #header { 
 	width:100%;
 	background:url('images-site/header-bg.png'); 
-	height:80px; 	
+	height:90px;
 	position:fixed;
-	margin-top:0px;
-}
-#nav {
-	width:600px;
-	float:right;
-	margin-top:20px;
 }
 #logo {
-	color:#fff;
+	color:#ff3366;
 	float:left;
 	font-size:60px;
 	margin-left:400px;
 	font-family:"Holtwood One SC";
-	font-weight: normal;
+	font-weight:normal;
 }
 #nav ul {
 	list-style:none;
 	display:block;
-	margin:0 auto;
-	list-style:none;	
+	margin:auto;
+	list-style:none;
+	padding-top:30px;
 }
 #nav li {
 	margin-top:9px;	
 	float:left;
 	padding-left:21px;
+	margin-left:2em;
 }
 #nav li a {
-	color:#fff;
+	color:#ffffff;
 	opacity:0.6;
 	font-size:16px;
 	text-decoration:none;
 	font-family:'Nunito';
 }
 #nav li a.active {
-	color: #fff;
+	color: #ffffff;
 	opacity:1;
 	border-bottom:2px solid #fff;
 }
 #nav li a:hover {
-	color: #fff;
+	color: #ffffff;
 	opacity:1;
 }
-
-/*= SLIDES STYLING
---------------------------------------------------------*/
-
 #giraffe-slide, #container{ width: 100%; }
 #giraffe-slide {
-	background: url('../images-site/header-giraffe.jpg') 50% 0 no-repeat fixed;
+	background: url('../images-giraffe/giraffe_page-02.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
 }
-
+#intro {
+	color: #708090;
+	font-size:18px;
+	height:200px;
+	padding:80px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	background-color:#ffffff;
+}
 #portfolio {
 	width:1400px;
 	display: block;
@@ -105,25 +100,23 @@ a:active {
 	background-color:#000000;
 	overflow: hidden;
 }
-
 #moose-slide {
-	background: url('../images-site/header-moose.jpg') 50% 0 no-repeat fixed;
-	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;	
-	background-size: cover;
+	background:url('../images-site/header-moose.jpg') 50% 0 no-repeat fixed;
+	color:#ffffff;
+	height:600px;
+	padding:170px 0 0 0;	
+	background-size:cover;
 }
-
 #about {
-	color: #708090;
+	color:#708090;
 	font-size:28px;
-	height: 350px;
-	padding: 80px;
-	width: 1000px;
-	margin-left: 0;
-	margin-right: auto;
+	height:350px;
+	padding:80px;
+	width:600px;
+	margin-left:0;
+	margin-right:auto;
+	background-color:#ffffff;
 }
-
 #giraffe {
 	background: url('../images/hco-01.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
@@ -131,21 +124,15 @@ a:active {
 	padding: 170px 0 0 0;	
 	background-size: cover;
 }
-
 #animation {
 	padding-bottom:50px;
-	background-color:#FFFFFF;
+	background-color:#ffffff;
 }
-
-/*= FOOTER 
---------------------------------------------------------*/
-
 #footer {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top:60px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
 	padding-bottom:60px;
 	padding-left:60px;
-	background-color:#0C090A;
 }
