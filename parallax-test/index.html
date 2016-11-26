@@ -16,77 +16,26 @@
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
-		<script type="text/javascript">
-	hs.graphicsDir = 'highslide/graphics/';
-	hs.align = 'center';
-	hs.transitions = ['expand', 'crossfade'];
-	hs.outlineType = 'rounded-white';
-	hs.fadeInOut = true;
-	hs.numberPosition = 'caption';
-	hs.dimmingOpacity = 0.75;
-
-	// Add the controlbar
-	if (hs.addSlideshow) hs.addSlideshow({
-		//slideshowGroup: 'group1',
-		interval: 5000,
-		repeat: false,
-		useControls: true,
-		fixedControls: 'fit',
-		overlayOptions: {
-			opacity: .75,
-			position: 'bottom center',
-			hideOnMouseOut: true
-		}
-	});
-		</script>
-		<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
-$(document).ready(function() {
-  $('a[href*=#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
-         $(this).click(function() {
-            $("#nav li a").removeClass("active");
-            $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
+		<script type="text/javascript">	>
+function myFunction() {
+    var x = document.getElementById("main-nav");
+    if (x.className === "main-nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "main-nav";
     }
-  });
-
-});
-
-
-		</script>
+}
+</script>
 	</head>
 
 <body>
-	<header id="header">
-		<div>
-			<div id="logo"><a href="http://www.cerealtom.com"> cerealtom.com </a></div>
-			<nav id="nav">
-				<ul>
-					<li><a href="\\index.html" title="portfolio">portfolio</a></li>
-					<li><a href="#about" title="about">about</a></li>
-					<li><a href="#giraffe" title="giraffe">giraffe</a></li>
-					<li><a href="#animation" title="animation">animation</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-		<div id="giraffe-slide">
-			<div id="intro">
-				<p>The Bright Yellow Giraffe is a whimsical adventure for kids featuring a giraffe that's bright in colour alone, the moose in the tree, Dennis the high-strung flea, and a crew of alien invaders.</p>
-				<p>I'm currently finishing the 60 pages of pictures that illustrate the story in whatever spare time I have.</p>
+	<div id="giraffe-slide">
+		<div id="intro">
+			<p>The Bright Yellow Giraffe is a whimsical adventure for kids featuring a giraffe that's bright in colour alone, the moose in the tree, Dennis the high-strung flea, and a crew of alien invaders.</p>
+			<p>I'm currently finishing the 60 pages of pictures that illustrate the story in whatever spare time I have.</p>
+			<div class="cover-nav">
+				<a href="portfolio.html">portfolio</a>
+				<a href="about.html">about</a>
 			</div>
 		</div>
 	<script type="text/javascript">

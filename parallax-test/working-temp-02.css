@@ -38,13 +38,6 @@ a:active {
 	text-decoration: none;
 }
 
-.corners {
-	border-top-left-radius:	10px	10px;
-	border-top-right-radius:	10px	10px;
-	border-bottom-left-radius:	10px	10px;
-	border-bottom-right-radius:	10px	10px;
-}
-
 div.img img {
     width: 100%;
     height: auto;
@@ -59,16 +52,10 @@ div.desc {
     box-sizing: border-box;
 }
 
-.responsive-thumb {
+.responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-}
-
-.responsive-main {
-    padding: 0 6px;
-    float: left;
-    max-width: 100%;
 }
 
 @media only screen and (max-width: 700px){
@@ -90,116 +77,52 @@ div.desc {
     clear: both;
 }
 
-ul.nav {
+.navbar {
 	list-style-type: none;
+	position: fixed;
+	height: 80px;
 	margin: 0;
-	margin-right: 12%;
-	padding: 0;
+	padding: 0px;
 	padding-top: 1%;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #333;
+	opacity: 0.6;
 }
 
-ul.nav li {
-	float: right;
-}
-
-ul.nav li a {
-  display: inline-block;
-  color: #a6a6a6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-family: 'Nunito';
   font-size: 17px;
 }
 
-ul.nav li a:hover {
-	color: #737373;
-	opacity: 1;
-}
-
-ul.nav li.icon {display: none;}
-
-@media screen and (max-width: 650px) {
-  ul.nav li:not(:first-child) {display: none;}
-  ul.nav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  ul.nav.responsive {position: relative;}
-  ul.nav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.nav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.nav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-
-ul.cover-nav {
-	list-style-type: none;
-}
-
-.cover-nav {
-	float: left;
-	padding-top: 1.4em;
-}
-
-.cover-nav a {
-	font-size: 20px;
-	color: #708090;
-	padding-left: 7em;
-	text-decoration: none;
-}
-
-.cover-nav a:hover {
-	color: #a6a6a6;
-	opacity: 1;
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
 }
 
 #logo:hover {
 	text-decoration: none;
 	color: #cccccc;
 }
-
+	
 #logo {
 	color: #ff3366;
 	float: left;
-	margin-left: 13%;
-	font-size: 3em;
+	font-size: 4em;
 	font-family: "Holtwood One SC";
 	font-weight: normal;
+	text-decoration: none;
 }
 
 #giraffe-slide, #container { width: 100%; }
 #giraffe-slide {
-	background: url('images/giraffe_page-02.jpg') no-repeat;
-	min-height: 100%;
-	min-width: 1024px;
-	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0;
-	left: 0;
+	background: url('images/giraffe_page-02.jpg') 50% 0 no-repeat fixed;
+	color: #ffffff;
+	height: 100%;
+	margin: 0;
+	padding: 200px 0 260px 0;
 	background-size: cover;
-}
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-#giraffe-slide {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
 }
 
 #moose-slide {
@@ -213,24 +136,16 @@ ul.cover-nav {
 #intro {
 	color: #708090;
 	font-size: 18px;
-	height: 350px;
-	width: 700px;
+	height: 200px;
 	padding: 80px;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 200px;
 	background-color: #ffffff;
 }
 
-#display {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-bottom: 0.2em;
-}
-
-#thumb-gallery {
+#gallery {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
@@ -241,31 +156,6 @@ ul.cover-nav {
 	border: 1px solid lightgrey;
 	background-color: #ffffff;
 	overflow: hidden;
-}
-
-#thumb-gallery img {
-	border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: .55em;
-	padding-bottom: 5em;
-}
-
-#main-gallery {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 150px;
-	padding-bottom: 55px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 1px solid lightgrey;
-	background-color: #ffffff;
-	overflow: hidden;
-}
-
-#main-gallery  img{
-	margin-bottom: 2em;
-	margin-left: 8em;
 }
 
 #about {
@@ -287,7 +177,6 @@ ul.cover-nav {
 }
 
 #animation {
-	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
