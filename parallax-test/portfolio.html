@@ -14,18 +14,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
 		
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		
-		<script type="text/javascript">	
-		function myFunction() {
-    var x = document.getElementById("main-nav");
-    if (x.className === "main-nav") {
-        x.className += " responsive";
-    } else {
-        x.className = "main-nav";
-    }
-}
-</script>
+
 	</head>
 
 <body>
@@ -41,180 +30,114 @@
   </nav>
 		<div id="thumb-gallery">
 		
-		<div id="display">
-			<a href="#giraffe-book.html" id="content" onclick="load_giraffe-book()"> giraffe-book </a>
-				<!-- Will be fetched on-demand -->
-		</div>
-			<div id="display" data-url="/exquisite-corpse/">
-				<!-- Will be fetched on-demand -->
-		</div>
-			<div id="display" data-url="/exquisite-corpse/">
-				<!-- Will be fetched on-demand -->
-		</div>
-		
-		<script>
-			/**
-			* Test harness to find out the best method for dynamically loading a
-			* html page into your app.
-			*/
-			var test_times  = {};
-			var test_page   = 'testpage.htm';
-			var content_div = document.getElementById('content');
-
-			// TEST 1 = use jQuery to load in testpage.htm and time it.
-			/*
-			function test_()
-			{
-				var start = new Date().getTime();
-				$(content_div).load(test_page, function() {
-					alert(new Date().getTime() - start);
-				});
-			}
-
-			// 1044
-			*/
-
-			// TEST 2 = use <object> to load in testpage.htm and time it.
-			/*
-			function test_()
-			{
-				start = new Date().getTime();
-				content_div.innerHTML = '<object type="text/html" data="' + test_page +
-				'" onload="alert(new Date().getTime() - start)"></object>'
-			}
-
-			//1579
-			*/
-
-			// TEST 3 = use httpObject to load in testpage.htm and time it.
-		   function test_()
-		   {
-			   var xmlHttp = new XMLHttpRequest();
-
-			   xmlHttp.onreadystatechange = function() {
-					if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-					{
-					   content_div.innerHTML = xmlHttp.responseText;
-					   alert(new Date().getTime() - start);
-					}
-				};
-
-				start = new Date().getTime();
-
-				xmlHttp.open("GET", test_page, true); // true for asynchronous
-				xmlHttp.send(null);
-
-				// 1039
-			}
-
-			// Main - run tests
-			test_();
-		</script>
-		
-		
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="giraffe-book.html">
-						<img src="images/thumb-giraffe_page-01.jpg" alt="Hoopaloo" /></a>
-				 </div>
+			<div id="display">
+					<!-- Will be fetched on-demand -->
 			</div>
-			 <div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hoopaloo.jpg">
-						<img src="images/thumb-hoopaloo.jpg" alt="Hoopaloo" /></a>
-				 </div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a  href="images/hoopla-nostalgia.jpg"">
-						<img src="images/thumb-hoopla-nostalgia.jpg" alt="Hoopla Nostalgia" title="" /></a>
+			
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="giraffe-book.html">
+							<img src="images/thumb-giraffe_page-01.jpg" alt="Hoopaloo" /></a>
+					 </div>
 				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-01.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-01.jpg" alt="hco" title="" /></a>
+				 <div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hoopaloo.jpg">
+							<img src="images/thumb-hoopaloo.jpg" alt="Hoopaloo" /></a>
+					 </div>
 				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-03.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-03.jpg" alt="hco" title="" /></a>
-				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-04.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-04.jpg" alt="hco" title="" /></a>
-				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-09.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-09.jpg" alt="hco" title="" /></a>
-				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-11.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-11.jpg" alt="hco" title="" /></a>
-				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-13.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-13.jpg" alt="hco" title="" /></a>
-				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-17.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-17.jpg" alt="hco" title="" /></a>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a  href="images/hoopla-nostalgia.jpg">
+							<img src="images/thumb-hoopla-nostalgia.jpg" alt="Hoopla Nostalgia" /></a>
 					</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-18.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-18.jpg" alt="hco" title="" /></a>
-				 </div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-19.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-19.jpg" alt="hco" title="" /></a>
 				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-20.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-20.jpg" alt="hco" title="" /></a>
-				 </div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/hco-15.jpg" class="highslide" onclick="">
-						<img src="images/thumb-hco-15.jpg" alt="hco" title="" /></a>
-				 </div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">
-					<a href="images/self-portrait-01.jpg" class="highslide" onclick="">
-						<img src="images/thumb-self-portrait_01.jpg" alt="Self Portrait" title="" /></a>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-01.jpg">
+							<img src="images/thumb-hco-01.jpg" alt="hco" /></a>
+					</div>
 				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">					
-					<a href="images/self-portrait-02.jpg" class="highslide" onclick="">
-						<img src="images/thumb-self-portrait_02.jpg" alt="Highslide JS" title="" /></a>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-03.jpg">
+							<img src="images/thumb-hco-03.jpg" alt="hco" /></a>
+					</div>
 				</div>
-			</div>
-			<div class="responsive-thumb">
-				<div class="img">					
-					<a href="images/self-portrait-03.jpg" class="highslide" onclick="">
-						<img src="images/thumb-self-portrait-a_03.jpg" alt="Highslide JS" title="" /></a>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-04.jpg" class="highslide">
+							<img src="images/thumb-hco-04.jpg" alt="hco" /></a>
+					</div>
 				</div>
-			</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-09.jpg">
+							<img src="images/thumb-hco-09.jpg" alt="hco" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-11.jpg">
+							<img src="images/thumb-hco-11.jpg" alt="hco" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-13.jpg">
+							<img src="images/thumb-hco-13.jpg" alt="hco" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-17.jpg">
+							<img src="images/thumb-hco-17.jpg" alt="hco" /></a>
+						</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-18.jpg">
+							<img src="images/thumb-hco-18.jpg" alt="hco" /></a>
+					 </div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-19.jpg">
+							<img src="images/thumb-hco-19.jpg" alt="hco" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-20.jpg">
+							<img src="images/thumb-hco-20.jpg" alt="hco" /></a>
+					 </div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/hco-15.jpg">
+							<img src="images/thumb-hco-15.jpg" alt="hco" /></a>
+					 </div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">
+						<a href="images/self-portrait-01.jpg">
+							<img src="images/thumb-self-portrait_01.jpg" alt="Self Portrait" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">					
+						<a href="images/self-portrait-02.jpg">
+							<img src="images/thumb-self-portrait_02.jpg" alt="Self Portrait" /></a>
+					</div>
+				</div>
+				<div class="responsive-thumb">
+					<div class="img">					
+						<a href="images/self-portrait-03.jpg">
+							<img src="images/thumb-self-portrait-a_03.jpg" alt="Self Portrait"  /></a>
+					</div>
+				</div>
 		</div>
+		<div class="clearfix"></div>
 		<div id="animation">
 			<p><iframe src="http://player.vimeo.com/video/31605557?title=0&amp;byline=0&amp;portrait=0" width="600" height="420" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe></p>
 			<p><iframe src="http://player.vimeo.com/video/31604733?title=0&amp;byline=0&amp;portrait=0" width="600" height="420" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe></p>

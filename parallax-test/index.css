@@ -38,58 +38,6 @@ a:active {
 	text-decoration: none;
 }
 
-.corners {
-	border-top-left-radius:	10px	10px;
-	border-top-right-radius:	10px	10px;
-	border-bottom-left-radius:	10px	10px;
-	border-bottom-right-radius:	10px	10px;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive-thumb {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-.responsive-main {
-    padding: 0 6px;
-    float: left;
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 ul.nav {
 	list-style-type: none;
 	margin: 0;
@@ -159,7 +107,8 @@ ul.cover-nav {
 .cover-nav a {
 	font-size: 20px;
 	color: #708090;
-	padding-left: 7em;
+	margin-left: 5.5em;
+	line-height: 300%;
 	text-decoration: none;
 }
 
@@ -182,8 +131,79 @@ ul.cover-nav {
 	font-weight: normal;
 }
 
-#giraffe-slide, #container { width: 100%; }
-#giraffe-slide {
+.corners {
+	border-top-left-radius:	10px	10px;
+	border-top-right-radius:	10px	10px;
+	border-bottom-left-radius:	10px	10px;
+	border-bottom-right-radius:	10px	10px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive-thumb {
+	margin-left: auto;
+	margin-right: auto;
+    padding: .5em;
+	padding-bottom: 1.5em;
+    float: left;
+    width: 33.3%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive-thumb {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive-thumb {
+        width: 100%;
+    }
+}
+
+#thumb-gallery {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	padding-bottom: 5em;
+	border: 1px solid lightgrey;
+	overflow: hidden;
+}
+
+#gallery {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	border: 1px solid lightgrey;
+	overflow: visible;
+}
+
+#gallery  img{
+	margin-bottom: 2em;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#intro-bg {
 	background: url('images/giraffe_page-02.jpg') no-repeat;
 	min-height: 100%;
 	min-width: 1024px;
@@ -196,29 +216,21 @@ ul.cover-nav {
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
-#giraffe-slide {
+#intro-bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
 }
 
-#moose-slide {
-	background: url('../images-site/header-moose.jpg') 50% 0 no-repeat fixed;
-	color: #ffffff;
-	height: 600px;
-	padding: 170px 0 0 0;	
-	background-size: cover;
-}
-
-#intro {
+.intro-box{
 	color: #708090;
 	font-size: 18px;
-	height: 350px;
-	width: 700px;
-	padding: 80px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 200px;
+	display: inline-block;
+	height: 24%;
+	width: 38%;
+	padding: 5%;
+	margin-top: 15%;
+	margin-left: 35%;
 	background-color: #ffffff;
 }
 
@@ -230,44 +242,6 @@ ul.cover-nav {
 	padding-bottom: 0.2em;
 }
 
-#thumb-gallery {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 150px;
-	padding-bottom: 55px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 1px solid lightgrey;
-	background-color: #ffffff;
-	overflow: hidden;
-}
-
-#thumb-gallery img {
-	border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: .55em;
-	padding-bottom: 5em;
-}
-
-#main-gallery {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 150px;
-	padding-bottom: 55px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 1px solid lightgrey;
-	background-color: #ffffff;
-	overflow: hidden;
-}
-
-#main-gallery  img{
-	margin-bottom: 2em;
-	margin-left: 8em;
-}
-
 #about {
 	color: #708090;
 	font-size: 28px;
@@ -276,14 +250,6 @@ ul.cover-nav {
 	margin-left: 0;
 	margin-right: auto;
 	background-color: #ffffff;
-}
-
-#giraffe {
-	background: url('../images/hco-01.jpg') 50% 0 no-repeat fixed;
-	color: #fff;
-	height: 600px;
-	padding: 170px 0 0 0;	
-	background-size: cover;
 }
 
 #animation {
