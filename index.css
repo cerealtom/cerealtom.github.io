@@ -45,28 +45,28 @@ i {
 header {
 	width: 100%;
 	background: rgba(255, 255, 255, 0.6);
-	overflow: hidden;
 	margin: 0;
-	margin-right: 12%;
-	margin-bottom: 50px;
 	padding: 0;
 	padding-top: 1%;
+	padding-bottom: 7%;
 }
 
 .nav {
 	float: right;
-	margin-right: 13%;
+	margin-right: 15%;
+	overflow: hidden;
 }
 
 .nav a {
-  display: inline-block;
-  color: #a6a6a6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-family: 'Nunito';
-  font-size: 1.5em;
+	float: left;
+	display: block;
+	color: #a6a6a6;
+	text-align: center;
+	padding: .6em .6em;
+	text-decoration: none;
+	transition: 0.3s;
+	font-family: 'Nunito';
+	font-size: 1.5em;
 }
 
 .nav a:hover {
@@ -155,11 +155,9 @@ div.img-small-right img {
     width: 25%;
 }
 
-@media only screen and (max-width: 1000px){
-	.nav :not(:first-child) {display: none;}
-	.nav .icon {
-    float: right;
-    display: block;
+@media screen and (max-width: 1000px){
+	.nav a {
+	font-size: 1.2em;
 	}
 	#logo { 
 		font-size: 2.2em;
@@ -170,28 +168,26 @@ div.img-small-right img {
     }
 }
 
-@media only screen and (max-width: 700px){
-	.nav.responsive {position: relative;}
-	.nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive  {
-    float: none;
-    display: inline;
-  }
-  .nav.responsive  a {
-    display: block;
-    text-align: left;
-  }
+@media screen and (max-width: 750px){
+	.nav a {
+		font-size: 1em;
+	}
 	#logo { 
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
     .responsive-thumb {
         width: 100%;
-        margin: 6px 0;
+        margin: 3px 0;
     }
+}
+
+@media screen and (max-width: 400px){
+	.nav a {
+		display: none;
+	}
+	#logo { 
+		font-size: 1em;
+	}
 }
 
 #thumb-gallery {
@@ -213,12 +209,6 @@ div.img-small-right img {
 
 #gallery  img{
 	margin-bottom: 2em;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #desc {
