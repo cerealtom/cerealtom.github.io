@@ -157,10 +157,7 @@ div.img-small-right img {
 
 @media screen and (max-width: 1000px){
 	#desc {
-		font-size: 135%;
-	}
-	.nav a {
-	font-size: 1.2em;
+		font-size: 150%;
 	}
 	#logo { 
 		font-size: 2.2em;
@@ -172,9 +169,6 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 750px){
-	.nav a {
-		font-size: 1em;
-	}
 	#logo { 
 		font-size: 1.8em;
 	}
@@ -185,6 +179,9 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 400px){
+	#desc {
+		font-size: 100%;
+	}
 	.nav a {
 		display: none;
 	}
