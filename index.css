@@ -155,41 +155,6 @@ div.img-small-right img {
     width: 25%;
 }
 
-@media screen and (max-width: 1000px){
-	#desc {
-		font-size: 150%;
-	}
-	#logo { 
-		font-size: 2.2em;
-	}
-    .responsive-thumb {
-        width: 50%;
-        margin: 6px 0;
-    }
-}
-
-@media screen and (max-width: 750px){
-	#desc {
-		font-size: 180%;
-	}
-	#logo { 
-		font-size: 1.8em;
-	}
-    .responsive-thumb {
-        width: 100%;
-        margin: 3px 0;
-    }
-}
-
-@media screen and (max-width: 400px){
-	.nav a {
-		display: none;
-	}
-	#logo { 
-		font-size: 1em;
-	}
-}
-
 #thumb-gallery {
 	width: 75%;
 	margin-left: auto;
@@ -211,12 +176,21 @@ div.img-small-right img {
 	margin-bottom: 2em;
 }
 
-#desc {
+#about {
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	padding-top: 5%;
+}
+
+#desc {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 145%;
+	line-height: 160%;
+	text-align: center;
 }
 
 #animation {
@@ -237,4 +211,45 @@ div.img-small-right img {
 	text-align: center;
 	margin-bottom: 0;
 	padding-top: 2.5%;
+}
+
+@media screen and (max-width: 1000px){
+	#logo { 
+		font-size: 2.2em;
+	}
+	#about {
+		font-size: 150%;
+	}
+	#desc {
+		font-size: 150%;
+	}
+    .responsive-thumb {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media screen and (max-width: 750px){
+	#logo { 
+		font-size: 1.8em;
+	}
+	#about {
+		font-size: 180%;
+	}
+	#desc {
+		font-size: 180%;
+	}
+    .responsive-thumb {
+        width: 100%;
+        margin: 3px 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+	.nav a {
+		display: none;
+	}
+	#logo { 
+		font-size: 1em;
+	}
 }
