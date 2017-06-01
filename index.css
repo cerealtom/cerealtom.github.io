@@ -169,6 +169,9 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 750px){
+	#desc {
+		font-size: 180%;
+	}
 	#logo { 
 		font-size: 1.8em;
 	}
@@ -179,9 +182,6 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 400px){
-	#desc {
-		font-size: 100%;
-	}
 	.nav a {
 		display: none;
 	}
