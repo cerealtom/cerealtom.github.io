@@ -1,7 +1,7 @@
 body,td,th {
 	font-family: "Oxygen";
     font-size: 100%;
-	color: #c0c0c0;
+	color: #9a9a9a;
 }
 
 body {
@@ -156,6 +156,9 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 1000px){
+	#desc {
+		font-size: 135%;
+	}
 	.nav a {
 	font-size: 1.2em;
 	}
