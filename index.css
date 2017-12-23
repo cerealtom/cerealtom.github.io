@@ -105,11 +105,6 @@ div.img img {
 	margin: auto;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
 div.img-mid img {
     width: 55%;
     height: auto;
@@ -177,7 +172,7 @@ div.img-small-right img {
 }
 
 #about {
-	width: 65%;
+	width: 45%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -185,11 +180,13 @@ div.img-small-right img {
 }
 
 #desc {
-	width: 65%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 145%;
 	line-height: 160%;
+	padding: 5%;
+	padding-top: 2%;
 	text-align: center;
 }
 
@@ -221,7 +218,7 @@ div.img-small-right img {
 		font-size: 150%;
 	}
 	#desc {
-		font-size: 150%;
+		font-size: 120%;
 	}
     .responsive-thumb {
         width: 50%;
@@ -237,7 +234,7 @@ div.img-small-right img {
 		font-size: 180%;
 	}
 	#desc {
-		font-size: 180%;
+		font-size: 100%;
 	}
     .responsive-thumb {
         width: 100%;
