@@ -281,9 +281,16 @@ div.img-small-right img {
 	#logo { 
 		font-size: 1em;
 }
+	.responsive {
+		width: 160%;
+}
+    .responsive-thumb {
+        width: 70%;
+        margin: 0px;
+}
 	div.img img {
-		width: 120%;
+		width: 140%;
 }
 	div.img-mid img {
-    width: 95%;
+    width: 120%;
 }
