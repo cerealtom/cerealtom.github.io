@@ -215,6 +215,9 @@ div.img-small-right img {
 	#logo { 
 		font-size: 2.2em;
 	}
+	#gallery {
+		margin-left: 0%;
+}
 	#about {
 		font-size: 150%;
 	}
@@ -275,6 +278,9 @@ div.img-small-right img {
 }
 
 @media screen and (max-width: 750px){
+	#gallery {
+		margin-left: 0%;
+}
 	.nav a {
 		display: none;
 	}
@@ -293,4 +299,18 @@ div.img-small-right img {
 }
 	div.img-mid img {
     width: 120%;
+}
+@media screen and (max-width: 400px){
+	.responsive {
+		width: 180%;
+}
+    .responsive-thumb {
+        width: 120%;
+        margin: 0px;
+}
+	div.img img {
+		width: 160%;
+}
+	div.img-mid img {
+    width: 140%;
 }
