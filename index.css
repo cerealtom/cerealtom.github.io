@@ -11,14 +11,6 @@ body {
 	background-color: #ffffff;
 }
 
-.clear {
-	clear: both;
-}
-
-.center {
-	margin: 0 auto;
-}
-
 a:link {
 	color: #ff3366;
 	text-decoration: none;
@@ -51,6 +43,75 @@ header {
 	padding-bottom: 7%;
 }
 
+#logo:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+#logo {
+	color: #ff3366;
+	float: left;
+	margin-left: 15%;
+	font-size: 3em;
+	font-family: "Holtwood One SC";
+	font-weight: normal;
+}
+
+#gallery {
+	width: 75%;
+	margin: auto;
+	overflow: visible;
+	text-align: center;
+}
+
+#gallery  img{
+	margin-bottom: 2em;
+}
+
+#thumb-gallery {
+	width: 85%;
+	margin: auto;
+	padding: 2em;
+	padding-bottom: .5em;
+	overflow: hidden;
+	text-align: center;
+}
+
+#about {
+	width: 45%;
+	margin: auto;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#desc {
+	width: 85%;
+	margin: auto;
+	font-size: 145%;
+	line-height: 160%;
+	padding: 5%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+#animation {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 110px;
+	background-color: #ffffff;
+}
+
+#footer {
+	width: 65%;
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 2.5%;
+}
+
 .nav {
 	float: right;
 	margin-right: 15%;
@@ -78,25 +139,19 @@ header {
 	display: none;
 }
 
-#logo:hover {
-	text-decoration: none;
-	color: #cccccc;
-}
-
-#logo {
-	color: #ff3366;
-	float: left;
-	margin-left: 15%;
-	font-size: 3em;
-	font-family: "Holtwood One SC";
-	font-weight: normal;
-}
-
 .corners {
 	border-top-left-radius:	10px	10px;
 	border-top-right-radius:	10px	10px;
 	border-bottom-left-radius:	10px	10px;
 	border-bottom-right-radius:	10px	10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	margin: 0 auto;
 }
 
 div.img img {
@@ -142,175 +197,90 @@ div.img-small-right img {
     box-sizing: border-box;
 }
 
-.responsive-thumb {
-	margin-left: auto;
-	margin-right: auto;
+.thumb {
+	margin: auto;
     padding: .5em;
 	padding-bottom: 1.5em;
-    float: left;
     width: 25%;
+	display: inline-block;
 }
 
-#thumb-gallery {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2em;
-	padding-bottom: .5em;
-	overflow: hidden;
-}
-
-#gallery {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2em;
-	overflow: visible;
-}
-
-#gallery  img{
-	margin-bottom: 2em;
-}
-
-#about {
-	width: 45%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 5%;
-}
-
-#desc {
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 145%;
-	line-height: 160%;
-	padding: 5%;
-	padding-top: 2%;
-	text-align: center;
-}
-
-#animation {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 110px;
-	background-color: #ffffff;
-}
-
-#footer {
-	width: 65%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	margin-bottom: 0;
-	padding-top: 2.5%;
-}
-
-@media screen and (max-width: 1750px){
+@media (max-width: 1281px){
 	#logo { 
-		font-size: 2.2em;
-	}
-	#gallery {
-		margin-left: 0%;
+		font-size: 2.5em;
 }
-	#about {
-		font-size: 150%;
-	}
-	#desc {
-		font-size: 160%;
-	}
-	.responsive {
-		width: 120%;
-}
-    .responsive-thumb {
-        width: 50%;
-        margin: 6px 0;
-    
+    .thumb {
+        width: 30%;
 }
 	div.img img {
 		width: 90%;
-		height: auto;
-		margin: auto;
-		display: block;
 }
 	div.img-mid img {
 		width: 65%;
-		height: auto;
-		margin: auto;
-		display: block;
 }
 }
 
-@media screen and (max-width: 1100px){
+@media (max-width: 961px){
+	i {
+		padding: 1em;
+}
 	#logo { 
 		font-size: 1.8em;
-	}
+}
 	#about {
 		font-size: 180%;
-	}
+}
 	#desc {
 		font-size: 150%;
-	}
-	.responsive {
-		width: 140%;
 }
-    .responsive-thumb {
-        width: 50%;
-        margin: 3px 0;
+    .thumb {
+        width: 40%;
+        margin: 1em 0;
 }
 	div.img img {
 		width: 100%;
-		height: auto;
-		margin: auto;
-		display: block;
 }
 	div.img-mid img {
 		width: 75%;
-		height: auto;
-		margin: auto;
-		display: block;
-}
 }
 
-@media screen and (max-width: 750px){
+@media (max-width: 641px){
 	#gallery {
 		margin-left: 0%;
 }
-	.nav a {
-		display: none;
-	}
+	#thumb-gallery {
+		width: 100%;
+}
 	#logo { 
-		font-size: 1em;
+		font-size: 1.5em;
 }
-	.responsive {
-		width: 160%;
-}
-    .responsive-thumb {
-        width: 70%;
-        margin: 0px;
+    .thumb {
+        width: 30%;
+        margin: .01em	1em;
+		padding: .4em;
 }
 	div.img img {
+		width: 120%;
+}
+	div.img-mid img {
+		width: 120%;
+}
+
+@media (max-width: 481px){
+	i {
+		padding: .3em;
+}
+	#gallery	{
+		width: 70%;
+}
+	#desc {
+		margin: auto;
+		font-size: 120%;
+		text-align: center;
+}
+	div.img img {
+		width: 160%;
+}
+	div.img-mid img {
 		width: 140%;
-}
-	div.img-mid img {
-    width: 120%;
-}
-@media screen and (max-width: 400px){
-	.responsive {
-		width: 180%;
-}
-    .responsive-thumb {
-        width: 120%;
-        margin: 0px;
-}
-	div.img img {
-		width: 160%;
-}
-	div.img-mid img {
-    width: 140%;
 }
