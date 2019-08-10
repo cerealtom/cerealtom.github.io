@@ -205,7 +205,7 @@ div.img-small-right img {
 	display: inline-block;
 }
 
-@media (max-width: 1281px){
+@media only and screen (max-width: 1281px){
 	#logo { 
 		font-size: 2.5em;
 }
@@ -220,7 +220,7 @@ div.img-small-right img {
 }
 }
 
-@media (max-width: 961px){
+@media only and screen (max-width: 961px){
 	i {
 		padding: 1em;
 }
@@ -244,7 +244,7 @@ div.img-small-right img {
 		width: 75%;
 }
 
-@media (max-width: 641px){
+@media only and screen (max-width: 641px){
 	#gallery {
 		margin-left: 0%;
 }
@@ -266,7 +266,7 @@ div.img-small-right img {
 		width: 120%;
 }
 
-@media (max-width: 481px){
+@media only and screen (max-width: 481px){
 	i {
 		padding: .3em;
 }
