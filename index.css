@@ -77,23 +77,6 @@ header {
 	text-align: center;
 }
 
-#about {
-	width: 45%;
-	margin: auto;
-	text-align: center;
-	padding-top: 5%;
-}
-
-#desc {
-	width: 85%;
-	margin: auto;
-	font-size: 145%;
-	line-height: 160%;
-	padding: 5%;
-	padding-top: 2%;
-	text-align: center;
-}
-
 #animation {
 	width: 75%;
 	margin: auto;
@@ -193,19 +176,39 @@ div.img-small-right img {
 	float: right;
 }
 
+.thumb {
+	width: 18%;
+	margin: auto;
+    padding: .5em;
+	padding-bottom: 1.5em;
+	display: inline-block;
+}
+
+.thumb 	img{
+	width: 100%;
+}
+
+.desc {
+	width: 85%;
+	margin: auto;
+	font-size: 145%;
+	line-height: 160%;
+	padding: 5%;
+	padding-top: 2%;
+	text-align: center;
+}
+
 * {
     box-sizing: border-box;
 }
 
-.thumb {
-	margin: auto;
-    padding: .5em;
-	padding-bottom: 1.5em;
-    width: 25%;
-	display: inline-block;
+@media only screen and (max-width: 1600px){
+    .thumb {
+        width: 25%;
+}
 }
 
-@media only and screen (max-width: 1281px){
+@media only screen and (max-width: 1281px){
 	#logo { 
 		font-size: 2.5em;
 }
@@ -220,22 +223,18 @@ div.img-small-right img {
 }
 }
 
-@media only and screen (max-width: 961px){
+@media only screen and (max-width: 961px){
 	i {
 		padding: 1em;
 }
 	#logo { 
 		font-size: 1.8em;
 }
+	#thumb-gallery {
+		width: 100%;
+}
 	#about {
 		font-size: 180%;
-}
-	#desc {
-		font-size: 150%;
-}
-    .thumb {
-        width: 40%;
-        margin: 1em 0;
 }
 	div.img img {
 		width: 100%;
@@ -243,21 +242,17 @@ div.img-small-right img {
 	div.img-mid img {
 		width: 75%;
 }
+	.desc {
+		font-size: 150%;
+}
+}
 
-@media only and screen (max-width: 641px){
+@media only screen and (max-width: 641px){
 	#gallery {
 		margin-left: 0%;
 }
-	#thumb-gallery {
-		width: 100%;
-}
 	#logo { 
 		font-size: 1.5em;
-}
-    .thumb {
-        width: 30%;
-        margin: .01em	1em;
-		padding: .4em;
 }
 	div.img img {
 		width: 120%;
@@ -265,22 +260,30 @@ div.img-small-right img {
 	div.img-mid img {
 		width: 120%;
 }
+	.desc {
+		font-size: 130%;
+}
+}
 
-@media only and screen (max-width: 481px){
+@media only screen and (max-width: 481px){
 	i {
 		padding: .3em;
 }
 	#gallery	{
 		width: 70%;
 }
-	#desc {
-		margin: auto;
-		font-size: 120%;
-		text-align: center;
+    .thumb {
+        width: 48%;
 }
 	div.img img {
 		width: 160%;
 }
 	div.img-mid img {
 		width: 140%;
+}
+	.desc {
+		margin: auto;
+		font-size: 120%;
+		text-align: center;
+}
 }
