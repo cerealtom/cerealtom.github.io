@@ -248,11 +248,8 @@ div.img-small-right img {
 }
 
 @media only screen and (max-width: 641px){
-	#gallery {
-		margin-left: 0%;
-}
-	#logo { 
-		font-size: 1.5em;
+    .thumb {
+        width: 48%;
 }
 	div.img img {
 		width: 120%;
@@ -271,9 +268,6 @@ div.img-small-right img {
 }
 	#gallery	{
 		width: 70%;
-}
-    .thumb {
-        width: 48%;
 }
 	div.img img {
 		width: 160%;
