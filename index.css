@@ -225,12 +225,20 @@ div.img-small-right img {
 
 @media only screen and (max-width: 961px){
 	i {
-		padding: 1em;
+		padding: 1.7em;
 }
 	#logo { 
 		font-size: 1.8em;
+		margin-left: 8%;
+}
+    #gallery	{
+		width: 100%;
+		padding: .5em;
 }
 	#thumb-gallery {
+		width: 100%;
+}	
+	#animation {
 		width: 100%;
 }
 	#about {
@@ -242,17 +250,26 @@ div.img-small-right img {
 	div.img-mid img {
 		width: 75%;
 }
+	div.img-small-left img {
+		width: 40%;
+		padding: .2em;
+}
+
+	div.img-small-right img {
+		width: 40%;
+		padding: .2em;
+}
 	.desc {
 		font-size: 150%;
 }
 }
 
 @media only screen and (max-width: 641px){
-    .thumb {
+	.thumb {
         width: 48%;
 }
 	div.img img {
-		width: 120%;
+		width: 110%;
 }
 	div.img-mid img {
 		width: 120%;
@@ -263,14 +280,8 @@ div.img-small-right img {
 }
 
 @media only screen and (max-width: 481px){
-	i {
-		padding: .3em;
-}
-	#gallery	{
-		width: 100%;
-}
 	div.img img {
-		width: 160%;
+		width: 120%;
 }
 	div.img-mid img {
 		width: 140%;
