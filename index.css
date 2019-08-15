@@ -244,6 +244,9 @@ div.img-small-right img {
 	#about {
 		font-size: 180%;
 }
+#footer {
+	width: 100%;
+}
 	div.img img {
 		width: 100%;
 }
