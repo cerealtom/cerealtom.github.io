@@ -272,10 +272,10 @@ div.img-small-right img {
         width: 48%;
 }
 	div.img img {
-		width: 110%;
+		width: 100%;
 }
 	div.img-mid img {
-		width: 120%;
+		width: 90%;
 }
 	.desc {
 		font-size: 130%;
@@ -283,12 +283,6 @@ div.img-small-right img {
 }
 
 @media only screen and (max-width: 481px){
-	div.img img {
-		width: 120%;
-}
-	div.img-mid img {
-		width: 140%;
-}
 	.desc {
 		margin: auto;
 		font-size: 120%;
