@@ -18,19 +18,19 @@
 			renderer.setSize( window.innerWidth, window.innerHeight );
 			document.body.appendChild( renderer.domElement );
 
-			var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+			var geometry = new THREE.TorusGeometry( 2, 12, 12 );
 			var material = new THREE.MeshBasicMaterial( { color: 0xfdfaf0 , wireframe: true } );
-			var cube = new THREE.Mesh( geometry, material );
-			scene.add( cube );
+			var blem = new THREE.Mesh( geometry, material );
+			scene.add( blem );
 
-			camera.position.z = 5;
+			camera.position.z = 10;
 
 			var animate = function () {
 				requestAnimationFrame( animate );
 
-				cube.rotation.x += 0.03;
-                cube.rotation.y += 0.03;
-                cube.rotation.z += 0.01;
+				blem.rotation.x += 0.01;
+                blem.rotation.y += 0.01;
+                blem.rotation.z += 0.01;
 
 				renderer.render( scene, camera );
 			};
