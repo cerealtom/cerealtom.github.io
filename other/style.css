@@ -15,7 +15,7 @@ i {
 
 #nav-left {
     position: absolute;
-    right 98%;
+    right: 98%;
     top: 50%;
     transform: translateY( -50% );
 }
