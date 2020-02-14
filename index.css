@@ -11,6 +11,10 @@ body {
 	background-color: #ffffff;
 }
 
+h1 {
+	padding-bottom: 3%;
+}
+
 a:link {
 	color: #ff3366;
 	text-decoration: none;
