@@ -1,14 +1,15 @@
-body,td,th {
-	font-family: "Oxygen";
-    font-size: 100%;
-	color: #9a9a9a;
-}
-
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	background-color: #ffffff;
+}
+
+body,td,th {
+	font-family: "Oxygen";
+    font-size: 100%;
+	color: #9a9a9a;
 }
 
 h1 {
@@ -199,6 +200,7 @@ div.img-small-right img {
 }
 
 .desc {
+	min-height: 100%;
 	width: 85%;
 	margin: auto;
 	font-size: 145%;
