@@ -285,6 +285,10 @@ div.img-small-right img {
 }
 
 @media only screen and (max-width: 641px){
+	h1 {
+		line-height: 1.3em;
+	}
+	
 	header {
 		padding-bottom: 35%;
 	}
