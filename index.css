@@ -98,6 +98,10 @@ header {
 	padding-top: 2.5%;
 }
 
+#img_mob{
+	display: none;
+}
+
 iframe {
 	position: absolute;
 	top: 0;
@@ -224,9 +228,9 @@ div.img-small-right img {
 	#logo { 
 		font-size: 2.5em;
 }
-#animation {
-	width: 85%;
-	margin-bottom: 3.5%;
+	#animation {
+		width: 85%;
+		margin-bottom: 3.5%;
 }
     .thumb {
         width: 30%;
@@ -262,7 +266,12 @@ div.img-small-right img {
 		font-size: 180%;
 }
 	#footer {
-	width: 100%;
+		width: 100%;
+}
+	#img_mob{
+		display: block;
+		width: 100%;
+		padding: .5em;
 }
 	div.img img {
 		width: 100%;
@@ -288,7 +297,6 @@ div.img-small-right img {
 	h1 {
 		line-height: 1.3em;
 	}
-	
 	header {
 		padding-bottom: 35%;
 	}
