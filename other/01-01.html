@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<a id="nav-right" href="01-02.html"><i class="arrow right"></i></a>
+		<a id="nav-right" href="01-02.html" alt="next"><i class="arrow right"></i></a>
 		<script src="https://threejs.org/build/three.js"></script>
 		<script>
 			var scene = new THREE.Scene();
@@ -13,13 +13,13 @@
             scene.background = new THREE.Color(0x282c34);
 
 			var renderer = new THREE.WebGLRenderer();
-			renderer.setSize(window.innerWidth,window.innerHeight);
-			document.body.appendChild(renderer.domElement);
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
 
-			var geometry = new THREE.CubeGeometry(1,1,1);
-			var material = new THREE.MeshBasicMaterial({color: 0xfdfaf0, wireframe: true});
-			var cube = new THREE.Mesh(geometry,material);
-			scene.add(cube);
+			var geometry = new THREE.CubeGeometry( 1, 1, 1 );
+			var material = new THREE.MeshBasicMaterial( { color: 0xfdfaf0, wireframe: true } );
+			var cube = new THREE.Mesh( geometry, material );
+			scene.add( cube );
 
 			camera.position.z = 5;
 
