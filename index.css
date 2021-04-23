@@ -191,6 +191,13 @@ div.img-small-right img {
 	float: right;
 }
 
+div.img-panel img {
+    width: 40%;
+    height: auto;
+	margin: auto;
+	display: block;
+}
+
 .thumb {
 	width: 18%;
 	margin: auto;
@@ -311,6 +318,9 @@ div.img-small-right img {
 }
 	.desc {
 		font-size: 130%;
+}
+	div.img-panel img {
+		width: 60%;
 }
 }
 
