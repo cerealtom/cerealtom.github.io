@@ -58,9 +58,13 @@ header {
 	float: left;
 	margin-left: 15%;
 	font-size: 3em;
-	font-family: "Holtwood One SC";
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: "Holtwood One SC";
+	src: url('http://fonts.googleapis.com/css?family=Holtwood+One+SC');
+ }
 
 #gallery {
 	width: 75%;
