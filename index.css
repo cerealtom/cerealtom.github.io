@@ -12,11 +12,6 @@ body,td,th {
 	color: #9a9a9a;
 }
 
-@font-face {
-	font-family: "Oxygen";
-	src: url(fonts/Oxygen-Regular.ttf);
- }
-
 h1 {
 	padding-bottom: 3%;
 }
@@ -66,11 +61,6 @@ header {
 	font-family: "Holtwood One SC";
 	font-weight: normal;
 }
-
-@font-face {
-	font-family: "Holtwood One SC";
-	src: url(fonts/HoltwoodOneSC-Regular.ttf);
- }
 
 #gallery {
 	width: 75%;
