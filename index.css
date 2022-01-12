@@ -7,7 +7,7 @@ body {
 }
 
 body,td,th {
-	font-family: "Oxygen";
+	font-family: "Oxygen", Verdana, sans-serif;
     font-size: 100%;
 	color: #9a9a9a;
 }
@@ -58,7 +58,7 @@ header {
 	float: left;
 	margin-left: 15%;
 	font-size: 3em;
-	font-family: "Holtwood One SC";
+	font-family: "Holtwood One SC", Verdana, sans-serif;
 	font-weight: normal;
 }
 
