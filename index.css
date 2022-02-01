@@ -1,3 +1,48 @@
+/* oxygen-regular - latin */
+@font-face {
+	font-family: 'Oxygen';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/oxygen-v14-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/oxygen-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/oxygen-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/oxygen-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/oxygen-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/oxygen-v14-latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}  
+
+/* holtwood-one-sc-regular - latin */
+@font-face {
+	font-family: 'Holtwood One SC';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/holtwood-one-sc-v14-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/holtwood-one-sc-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/holtwood-one-sc-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/holtwood-one-sc-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/holtwood-one-sc-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/holtwood-one-sc-v14-latin-regular.svg#HoltwoodOneSC') format('svg'); /* Legacy iOS */
+}
+
+/* nunito-regular - latin */
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/nunito-v20-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('fonts/nunito-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/nunito-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/nunito-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/nunito-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/nunito-v20-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+}
+
+
 body {
 	height: 100%;
 	margin: 0;
