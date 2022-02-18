@@ -141,6 +141,7 @@ header {
 	text-align: center;
 	margin-bottom: 0;
 	padding-top: 2.5%;
+	padding-bottom: 1%;
 }
 
 #img_mob{
@@ -162,6 +163,7 @@ iframe {
 }
 
 .nav a {
+	font-size: 1.5em;
 	float: left;
 	display: block;
 	color: #a6a6a6;
@@ -170,7 +172,6 @@ iframe {
 	text-decoration: none;
 	transition: 0.3s;
 	font-family: 'Nunito', Verdana, sans-serif;
-	font-size: 1.5em;
 }
 
 .nav a:hover {
@@ -179,6 +180,26 @@ iframe {
 }
 
 .nav .icon {
+	display: none;
+}
+
+.footer-nav a {
+	padding: none;
+	display: block;
+	color: #a6a6a6;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.3s;
+	font-family: 'Nunito', Verdana, sans-serif;
+	font-size: 1.5em;
+}
+
+.footer-nav a:hover {
+	color: #737373;
+	opacity: 1;
+}
+
+.footer-nav .icon {
 	display: none;
 }
 
