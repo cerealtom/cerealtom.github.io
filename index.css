@@ -277,7 +277,7 @@ div.img-panel img {
 
 .desc {
 	min-height: 100%;
-	width: 85%;
+	width: 65%;
 	margin: auto;
 	font-size: 145%;
 	line-height: 160%;
@@ -407,6 +407,6 @@ div.img-panel img {
 }
 	.desc {
 		font-size: 105%;
-		width: 100%;
+		width: 85%;
 }
 }
