@@ -406,8 +406,6 @@ div.img-panel img {
 		margin-right: 0;
 }
 	.desc {
-		margin: auto;
-		font-size: 90%;
-		text-align: center;
+		font-size: 105%;
 }
 }
