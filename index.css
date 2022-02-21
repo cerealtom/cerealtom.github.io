@@ -407,5 +407,6 @@ div.img-panel img {
 }
 	.desc {
 		font-size: 105%;
+		width: 100%;
 }
 }
