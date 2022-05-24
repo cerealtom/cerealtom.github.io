@@ -58,6 +58,7 @@ body,td,th {
 }
 
 h1 {
+	font-size: 2em;
 	padding-bottom: 3%;
 }
 
@@ -390,6 +391,10 @@ div.img-panel img {
 }
 
 @media only screen and (max-width: 481px){
+	h1 {
+		font-size: 1.2em;
+	}
+
 	i {
 		padding: 1em;
 }
@@ -407,6 +412,6 @@ div.img-panel img {
 }
 	.desc {
 		font-size: 105%;
-		width: 85%;
+		width: 95%;
 }
 }
