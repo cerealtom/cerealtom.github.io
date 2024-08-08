@@ -264,6 +264,13 @@ div.img-panel img {
 	display: block;
 }
 
+div.img-panel-wide img {
+    width: 55%;
+    height: auto;
+	margin: auto;
+	display: block;
+}
+
 .thumb {
 	width: 18%;
 	margin: auto;
@@ -289,6 +296,13 @@ div.img-panel img {
 
 * {
     box-sizing: border-box;
+}
+
+.star {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 1600px){
@@ -356,7 +370,6 @@ div.img-panel img {
 		width: 40%;
 		padding: .2em;
 }
-
 	div.img-small-right img {
 		width: 40%;
 		padding: .2em;
@@ -387,6 +400,9 @@ div.img-panel img {
 }
 	div.img-panel img {
 		width: 80%;
+}
+	div.img-panel-wide img {
+		width: 90%;
 }
 }
 
