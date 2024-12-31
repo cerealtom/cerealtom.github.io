@@ -42,6 +42,84 @@
 		 url('fonts/nunito-v20-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
 }
 
+/* Lilita One */
+@font-face {
+	font-family: "Lilita One";
+	src: url("fonts/LilitaOne-Regular.woff2") format("woff2"),
+		 url("fonts/LilitaOne-Regular.woff") format("woff"),
+		 url("fonts/LilitaOne-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  /* Sixtyfour */
+  @font-face {
+	font-family: "Sixtyfour";
+	src: url("fonts/Sixtyfour-Regular.woff2") format("woff2"),
+		 url("fonts/Sixtyfour-Regular.woff") format("woff"),
+		 url("fonts/Sixtyfour-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-optical-sizing: auto;
+	font-variation-settings: "BLED" 0, "SCAN" 0;
+	font-display: swap;
+  }
+  
+  /* Archivo Black */
+  @font-face {
+	font-family: "Archivo Black";
+	src: url("fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+		 url("fonts/ArchivoBlack-Regular.woff") format("woff"),
+		 url("fonts/ArchivoBlack-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  /* Abril Fatface */
+  @font-face {
+	font-family: "Abril Fatface";
+	src: url("fonts/AbrilFatface-Regular.woff2") format("woff2"),
+		 url("fonts/AbrilFatface-Regular.woff") format("woff"),
+		 url("fonts/AbrilFatface-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  /* Passion One - Regular */
+  @font-face {
+	font-family: "Passion One";
+	src: url("fonts/PassionOne-Regular.woff2") format("woff2"),
+		 url("fonts/PassionOne-Regular.woff") format("woff"),
+		 url("fonts/PassionOne-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  /* Passion One - Bold */
+  @font-face {
+	font-family: "Passion One";
+	src: url("fonts/PassionOne-Bold.woff2") format("woff2"),
+		 url("fonts/PassionOne-Bold.woff") format("woff"),
+		 url("fonts/PassionOne-Bold.ttf") format("truetype");
+	font-weight: 700; /* Different font weight */
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  /* Passion One - Black */
+  @font-face {
+	font-family: "Passion One";
+	src: url("fonts/PassionOne-Black.woff2") format("woff2"),
+		 url("fonts/PassionOne-Black.woff") format("woff"),
+		 url("fonts/PassionOne-Black.ttf") format("truetype");
+	font-weight: 900; /* Different font weight */
+	font-style: normal;
+	font-display: swap;
+  }
 
 body {
 	height: 100%;
@@ -87,7 +165,6 @@ i {
 
 header {
 	width: 100%;
-	background: rgba(255, 255, 255, 0.6);
 	margin: 0;
 	padding: 0;
 	padding-top: 1%;
@@ -96,15 +173,16 @@ header {
 
 #logo:hover {
 	text-decoration: none;
-	color: #cccccc;
+	color: #3609ff;
 }
 
 #logo {
-	color: #ff3366;
+	color: #ff006a;
 	float: left;
-	margin-left: 15%;
-	font-size: 3em;
-	font-family: "Holtwood One SC", Verdana, sans-serif;
+	margin-left: 13%;
+	font-size: 5em;
+	font-family: "Passion One", Verdana, sans-serif;
+	transition: 0.3s;
 	font-weight: normal;
 }
 
@@ -169,14 +247,14 @@ iframe {
 	display: block;
 	color: #a6a6a6;
 	text-align: center;
-	padding: .6em .6em;
+	padding: 1.3em .3em;
 	text-decoration: none;
 	transition: 0.3s;
 	font-family: 'Nunito', Verdana, sans-serif;
 }
 
 .nav a:hover {
-	color: #737373;
+	color: #ff006a;
 	opacity: 1;
 }
 
@@ -313,7 +391,7 @@ div.img-panel-wide img {
 
 @media only screen and (max-width: 1281px){
 	#logo { 
-		font-size: 2.5em;
+		font-size: 4em;
 }
 	#animation {
 		width: 85%;
@@ -332,10 +410,10 @@ div.img-panel-wide img {
 
 @media only screen and (max-width: 961px){
 	i {
-		padding: 1.7em;
+		padding: 2.2em;
 }
 	#logo { 
-		font-size: 1.8em;
+		font-size: 3.2em;
 		margin-left: 8%;
 }
     #gallery	{
@@ -416,8 +494,8 @@ div.img-panel-wide img {
 }
 
 	#logo { 
-		font-size: 1.5em;
-		margin-left: 4%;
+		font-size: 2.8em;
+		margin-left: 6%;
 }
 	#animation {
 		margin-top: 25%;
