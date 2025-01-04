@@ -42,6 +42,49 @@
 		 url('fonts/nunito-v20-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
 }
 
+/* Lilita One */
+@font-face {
+	font-family: "Lilita One";
+	src: url("fonts/LilitaOne-Regular.woff2") format("woff2"),
+		 url("fonts/LilitaOne-Regular.woff") format("woff"),
+		 url("fonts/LilitaOne-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+  /* Archivo Black */
+@font-face {
+	font-family: "Archivo Black";
+	src: url("fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+		 url("fonts/ArchivoBlack-Regular.woff") format("woff"),
+		 url("fonts/ArchivoBlack-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Bungee Shade";
+	src: url("fonts/BungeeShade-Regular.woff2") format("woff2"),
+		 url("fonts/BungeeShade-Regular.woff") format("woff"),
+		 url("fonts/BungeeShade-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Bowlby One";
+	src: url("fonts/BowlbyOne-Regular.woff2") format("woff2"),
+		 url("fonts/BowlbyOne-Regular.woff") format("woff"),
+		 url("fonts/BowlbyOne-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
 
 body {
 	height: 100%;
@@ -96,15 +139,15 @@ header {
 
 #logo:hover {
 	text-decoration: none;
-	color: #cccccc;
+	color: #ff3366;
 }
 
 #logo {
-	color: #ff3366;
+	color: #3609ff;
 	float: left;
 	margin-left: 15%;
 	font-size: 3em;
-	font-family: "Holtwood One SC", Verdana, sans-serif;
+	font-family: "Bowlby One", Verdana, sans-serif;
 	font-weight: normal;
 }
 
