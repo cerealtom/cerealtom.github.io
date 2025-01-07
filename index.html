@@ -8,7 +8,7 @@
 		<title>Tom Moore - Illustration</title>
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="shortcut icon" href="favicon.ico" >
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
 		<script>
 			!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 			posthog.init('phc_bk3BZ31uhzInO8aMAWEGKXCgDCW8aDd9LSkeb1Wpr1x',{api_host:'https://app.posthog.com'})
@@ -17,55 +17,147 @@
 	</head>
 <body>
 	<header>
-		<a href="index.html" id="logo"> cerealtom.com </a>
-			<div class="nav" id="nav">
-				<a href="index.html">work</a>
-				<a href="about.html">about</a>
-				<a href="https://cerealtom.bigcartel.com" target="_blank">shop</a>
+		<div id="logo">
+			<a href="index.html"> cerealtom.com </a><br>
+			<a href="https://www.instagram.com/twoombo" target="_blank" alt="Instagram"><i class="fa-brands fa-instagram" style="font-size:24px"></i></a>
+			<a href="https://twitter.com/cerealtom" target="_blank" alt="Twitter"><i class="fa-brands fa-twitter" style="font-size:24px"></i></a>
+			<a href="https://cerealtom.tumblr.com" target="_blank"  alt="Tumblr"><i class="fa-brands fa-tumblr" style="font-size:24px"></i></a>
+			<a href="https://bsky.app/profile/twoombo.bsky.social" target="_blank" alt="Bluesky"><i class="fa-brands fa-bluesky" style="font-size:24px"></i></a>
+		</div>	
+		<div class="nav">
+			<a href="index.html">work</a>
+			<a href="about.html">about</a>
+			<a href="https://cerealtom.bigcartel.com" target="_blank">shop</a>
+		</div>
+	</header>
+
+	<div class="gallery">
+		<div class="grid">
+			<div class="grid-item">
+				<img src="images/birds_martial-eagle.jpg" alt="a martial eagle" data-full="images/birds_martial-eagle.jpg" data-caption="A martial eagle">
 			</div>
-  	</header>
-	<div id="thumb-gallery">
-		<div class="thumb">
-			<a href="birds.html"><img src="images/thumb-birds.jpg" alt="Birds and nature, for the kids" /></a>
+			<div class="grid-item">
+				<img src="images/giraffe_index.jpg" alt="Birds and nature, for the kids" data-full="images/giraffe_cover.gif" data-caption="Read more about The Bright Yellow Giraffe <a href='giraffe.html' target'_blank'>here</a>">
+			</div>
+			<div class="grid-item">		
+				<img src="images/happy-friends.jpg" alt="a collection of friendly looking folk, DO NOT trust them" data-full="images/happy-friends.jpg" data-caption="DO NOT trust these guys">
+			</div>
+			<div class="grid-item">
+				<img src="images/possum_02.jpg" alt="Possum Story" data-full="images/possum_02.jpg" data-caption="">
+			</div>
+			<div class="grid-item">
+				<img src="images/castlevania-frog_02.jpg" alt="Dracula bites a frog" data-full="images/castlevania-frog.jpg" data-caption="Origin story for the frog from Super Castlevania IV">
+			</div>
+			<div class="grid-item">		
+				<img src="images/beetle-boy.jpg" alt="Goat-eyed beetle-boy is surrounded by strangers" data-full="images/beetle-boy.jpg" data-caption="">
+			</div>
+			<div class="grid-item">	
+				<img src="images/birds_crane-fly.jpg" alt="A crane Fly" data-full="images/birds_crane-fly.jpg" data-caption="A crane fly">
+			</div>
+			<div class="grid-item">	
+				<img src="images/birds_puss-moth-caterpillar.jpg" alt="A puss moth caterpillar smiles at you" data-full="images/birds_puss-moth-caterpillar.jpg" data-caption="A puss moth caterpillar">
+			</div>
+			<div class="grid-item">	
+				<img src="images/birds_pigeon.jpg" alt=" A pigeon with ruffled feathers sitting on a happy red brick" data-full="images/birds_pigeon.jpg" data-caption="Pigeon pal">
+			</div>
+			<div class="grid-item">	
+				<img src="images/soup_claw.jpg" alt="An amputated claw bleeding" data-full="images/soup_claw.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_nosferatu.jpg" alt="Nosferatu" data-full="images/soup_nosferatu.jpg" data-caption="The n stands for nosferatu">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_oh-no.jpg" alt="oh no" data-full="images/soup_oh-no.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_tower-man.jpg" alt="Tower Man outside his tower, which is now on fire" data-full="images/soup_tower-man.jpg" data-caption="Tower Man outside his tower, which is now on fire">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_bath.jpg" alt="A desert tent" data-full="images/soup_bath.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sub_strate.jpg" alt="Substrate" data-full="images/sub_strate.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sub_weolf.jpg" alt="Weolfman" data-full="images/sub_weolf.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sub_weorm_03.jpg" alt="Worm" data-full="images/sub_weorm_03.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/better-place.jpg" alt="A simple man in profile has the letters BETTER PLACE sitting on his head" data-full="images/better-place.jpg" data-caption="Thinking about utopia">
+			</div>
+			<div class="grid-item">		
+				<img src="images/neighbourhood.jpg" alt="A neighbourhood of characters going about thier days" data-full="images/neighbourhood.jpg" data-caption="It's a beautiful day in the neighbourhood">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_arches.jpg" alt="Rows of arches in many colours, with some offerings placed before them" data-full="images/soup_arches.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/fun-club_lion.jpg" alt="Fun " data-full="images/fun-club_lion.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/heads_02.jpg" alt="A woman offers a flower to a person whose head is consumed by them" data-full="images/heads_02.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sts_02.jpg" alt="A well-dressed woman" data-full="images/sts_02.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/pop-02.jpg" alt="Hands materialise a small being" data-full="images/pop-02.jpg" data-caption="POP!">
+			</div>
+			<div class="grid-item">		
+				<img src="images/heads_03.jpg" alt="Two figures leave the arboretum" data-full="images/heads_03.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/snake.jpg" alt="" data-full="images/snake.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/snake-hallucination.jpg" alt="A snake appears in the corner of your vision while you are at home minding your own business" data-full="images/snake-hallucination.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sorry_04.jpg" alt="A skeleton" data-full="images/sorry_04.jpg" data-caption="A skeleton">
+			</div>
+			<div class="grid-item">		
+				<img src="images/sorry_01.jpg" alt="A remorseful skeleton" data-full="images/sorry_02.jpg" data-caption="A remorseful skeleton">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_mm-bramble.jpg" alt="Small folk guarding their bramble soup from the awful face" data-full="images/soup_mm-bramble.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_mm-no-slug.jpg" alt="Double lower-case letter ms serve as portals to different planes of reality" data-full="images/soup_mm-no-slug.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/soup_claw-paw.jpg" alt="A man is carrying a large creature's severed foot on a pole like a lucky charm" data-full="images/soup_claw-paw.jpg" data-caption="">
+			</div>
+			<div class="grid-item">		
+				<img src="images/self-portrait-01.jpg" alt="" data-full="images/self-portrait-01.jpg" data-caption="Work from <a href='self-portrait.html' target'_blank'>Good On Paper</a>">">
+			</div>
+			<div class="grid-item">		
+				<img src="images/hco-01.jpg" alt="" data-full="images/hco-01.jpg" data-caption="Work from <a href='gibson.html' target'_blank'>The Gibson Hotel</a>">
+			</div>
+			<div class="grid-item">		
+				<img src="images/storyhorse-10.jpg" alt="" data-full="images/storyhorse-10.jpg" data-caption="">
+			</div>
 		</div>
-		<div class="thumb">
-			<a href="soup.html"><img src="images/thumb-soup-clawset.jpg" alt="Amputated Claw Soup" /></a>
+	</div>
+	<div id="lightbox" class="lightbox">
+		<span class="close">&times;</span>
+		<div class="lightbox-content">
+			<img src="" alt="">
+			<div id="caption"></div>
 		</div>
-		<div class="thumb">
-			<a href="substrate.html"><img src="images/thumb-substrate.jpg" alt="Substrate" /></a>
-		</div>
-		<div class="thumb">
-			<a href="giraffe.html"><img src="images/thumb-giraffe.jpg" alt="The Bright Yellow Giraffe" /></a>
-		</div>
-		<div class="thumb">
-			<a href="possum.html"><img src="images/thumb-possum_02.jpg" alt="Possum Story" /></a>
-		</div>
-		<div class="thumb">
-			<a href="gibson.html"><img src="images/thumb-hco-01.jpg" alt="The Gibson Hotel" /></a>
-		</div>
-		<div class="thumb">
-			<a href="self-portrait.html"><img src="images/thumb-self-portrait_01.jpg" alt="Self Portrait-Good On Paper" /></a>
-		</div>
-		<div class="thumb">
-			<a href="storyhorse.html"><img src="images/thumb-storyhorse.jpg" alt="Storyhorse" /></a>
-		</div>
-		<div class="thumb">
-			<a href="cabinet-corpse.html"><img src="images/thumb-cabinet-corpse.jpg" alt="Cabinet Corpse" /></a>
-		</div>
-		<div class="thumb">
-			<a href="short.html"><img src="images/thumb-horser-01.jpg" alt="Short" /></a>
-		</div>
-		<div class="thumb">
-			<a href="ur-cool.html"><img src="images/thumb-cool-guy.jpg" alt="ur rly cool" /></a>
-		</div>
-		<div> <span class="star"></span> </div>
+		<span class="prev">&lsaquo;</span>
+		<span class="next">&rsaquo;</span>
 	</div>
 	<div class="clear" id="footer">
-		<a href="https://www.instagram.com/twoombo" target="_blank" alt="Instagram"><i class="fa fa-instagram" style="font-size:24px"></i></a>
-		<a href="https://twitter.com/cerealtom" target="_blank" alt="Twitter"><i class="fa fa-twitter" style="font-size:24px"></i></a>
-		<a href="https://cerealtom.tumblr.com" target="_blank"  alt="Tumblr"><i class="fa fa-tumblr" style="font-size:24px"></i></a>
-		<a href="https://www.behance.net/tommoore" target="_blank" alt="Behance"><i class="fa fa-behance" style="font-size:24px"></i></a>
+		<a href="https://www.instagram.com/twoombo" target="_blank" alt="Instagram"><i class="fa-brands fa-instagram" style="font-size:24px"></i></a>
+		<a href="https://twitter.com/cerealtom" target="_blank" alt="Twitter"><i class="fa-brands fa-twitter" style="font-size:24px"></i></a>
+		<a href="https://cerealtom.tumblr.com" target="_blank"  alt="Tumblr"><i class="fa-brands fa-tumblr" style="font-size:24px"></i></a>
+		<a href="https://bsky.app/profile/twoombo.bsky.social" target="_blank" alt="Bluesky"><i class="fa-brands fa-bluesky" style="font-size:24px"></i></a>
 		<p class="footer-nav"><a href="privacy-policy.html">privacy policy</a></p>
 	</div>
+	<script src="node_modules/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
