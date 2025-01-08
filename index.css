@@ -266,6 +266,7 @@ div.img-80 img {
     height: auto;
 	margin: auto;
 	display: block;
+	margin-bottom: 1em;
 }
 
 div.img-55 img {
@@ -273,6 +274,7 @@ div.img-55 img {
     height: auto;
 	margin: auto;
 	display: block;
+	margin-bottom: 1em;
 }
 
 .video-container {
