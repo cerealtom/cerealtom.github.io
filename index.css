@@ -248,17 +248,31 @@ header {
 }
 
 
-#image-column {
+.image-100 {
 	margin: auto;
 	overflow: visible;
 	text-align: center;
 }
 
-#image-column  img{
+.image-100  img{
 	max-width: 100%;
 	height: auto;
 	display: block;
 	margin-bottom: 1em;
+}
+
+div.img-80 img {
+    width: 80%;
+    height: auto;
+	margin: auto;
+	display: block;
+}
+
+div.img-55 img {
+    width: 55%;
+    height: auto;
+	margin: auto;
+	display: block;
 }
 
 .video-container {
