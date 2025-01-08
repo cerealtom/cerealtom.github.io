@@ -6,7 +6,6 @@
     "masonry-layout": "^4.2.2"
   },
   "devDependencies": {
-    "parcel": "^1.12.4",
     "sass": "^1.26.10"
   }
 }
